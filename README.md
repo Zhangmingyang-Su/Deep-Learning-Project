@@ -20,6 +20,7 @@ where Sp is the numerical value of the time series at time period p and where P 
 
 For example - using a window of size T = 5 (as illustrated in the gif above) we produce a set of input/output pairs like the one shown in the table below
 
+
 Notice here that each input is a sequence (or vector) of length 4 (and in general has length equal to the window size T) while each corresponding output is a scalar value.  Notice also how given a time series of length P and window size T = 5 as shown above, we created P - 5  input/output pairs.  More generally, for a window size T we create P - T such pairs.
 
 Now let's window the input time series as described above! 
